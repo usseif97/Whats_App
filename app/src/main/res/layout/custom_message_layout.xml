@@ -34,9 +34,9 @@
             android:id="@+id/receiver_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="10dp"
-            android:layout_below="@+id/receiver_message_text"
+            android:layout_toRightOf="@+id/receiver_message_text"
             android:padding="10dp"
             android:textSize="14sp"
             android:textStyle="italic"
@@ -52,6 +52,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="13dp"
         android:layout_margin="5dp"
+        android:background="@drawable/image_border"
         android:scaleType="centerCrop"/>
 
     <ImageView
@@ -62,6 +63,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
+        android:background="@drawable/image_border"
         android:scaleType="centerCrop"/>
 
 
@@ -89,9 +91,9 @@
             android:id="@+id/sender_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="10dp"
-            android:layout_below="@+id/sender_message_text"
+            android:layout_toRightOf="@+id/sender_message_text"
             android:padding="10dp"
             android:textSize="14sp"
             android:textStyle="italic"

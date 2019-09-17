@@ -35,7 +35,8 @@
             android:name=".FindFriendsActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ImageViewerActivity"></activity>
     </application>
 
 </manifest>
